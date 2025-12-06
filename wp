@@ -1,0 +1,10 @@
+#!/bin/bash
+export DOCKER_API_VERSION=1.44
+# Check if we are in a TTY
+if [ -t 0 ]; then
+    # Interactive
+    docker-compose exec wordpress php wp-cli.phar "$@" --allow-root
+else
+    # Non-interactive (piped input)
+    docker-compose exec -T wordpress php wp-cli.phar "$@" --allow-root
+fi
