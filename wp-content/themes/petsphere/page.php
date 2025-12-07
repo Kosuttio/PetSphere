@@ -16,7 +16,13 @@ get_header();
             </header>
 
             <div class="entry-content">
-                <?php the_content(); ?>
+                <?php
+                if ( class_exists( 'WooCommerce' ) && is_cart() ) {
+                    echo do_shortcode( '[woocommerce_cart]' );
+                } else {
+                    the_content();
+                }
+                ?>
             </div>
         </article>
         <?php

@@ -1,0 +1,115 @@
+<!-- wp:group {"className":"hero-section alignfull","layout":{"type":"constrained"}} -->
+<div class="wp-block-group hero-section alignfull"><!-- wp:columns {"className":"hero-container"} -->
+<div class="wp-block-columns hero-container"><!-- wp:column {"className":"hero-content"} -->
+<div class="wp-block-column hero-content"><!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">To nejlepší pro vaše<br>zvířecí parťáky</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Vyberte si z naší široké nabídky produktů pro psy, kočky a další mazlíčky.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"btn-orange"} -->
+<div class="wp-block-button btn-orange"><a class="wp-block-button__link wp-element-button" href="/shop/">Nakupovat nyní</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"className":"hero-image"} -->
+<div class="wp-block-column hero-image"><!-- wp:html -->
+<div class="dog-circle">
+    <img src="/wp-content/themes/petsphere/images/Ruprecht.png" alt="Ruprecht" />
+</div>
+<!-- /wp:html --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"features-section alignfull","layout":{"type":"constrained"}} -->
+<div class="wp-block-group features-section alignfull"><!-- wp:columns {"className":"features-grid"} -->
+<div class="wp-block-columns features-grid"><!-- wp:column {"className":"feature-card"} -->
+<div class="wp-block-column feature-card"><!-- wp:paragraph {"className":"feature-icon"} -->
+<p class="feature-icon">🏆</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"className":"feature-title"} -->
+<h3 class="wp-block-heading feature-title">Kvalitní produkty</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"feature-desc"} -->
+<p class="feature-desc">Pečlivě vybraný sortiment pro zdraví a radost vašich mazlíčků.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"className":"feature-card"} -->
+<div class="wp-block-column feature-card"><!-- wp:paragraph {"className":"feature-icon"} -->
+<p class="feature-icon">🛡️</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"className":"feature-title"} -->
+<h3 class="wp-block-heading feature-title">Ověřené značky</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"feature-desc"} -->
+<p class="feature-desc">Spolupracujeme pouze s ověřenými dodavateli a značkami.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"className":"feature-card"} -->
+<div class="wp-block-column feature-card"><!-- wp:paragraph {"className":"feature-icon"} -->
+<p class="feature-icon">🚚</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"className":"feature-title"} -->
+<h3 class="wp-block-heading feature-title">Rychlé doručení</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"feature-desc"} -->
+<p class="feature-desc">Objednávky expedujeme bleskově, aby byly u vás co nejdříve.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"featured-products container","layout":{"type":"constrained"}} -->
+<div class="wp-block-group featured-products container"><!-- wp:heading -->
+<h2 class="wp-block-heading">Doporučené produkty</h2>
+<!-- /wp:heading -->
+
+<!-- wp:shortcode -->
+[products limit="4" columns="4" orderby="popularity"]
+<!-- /wp:shortcode --></div>
+<!-- /wp:group -->
+
+<!-- wp:columns {"className":"bottom-grid container"} -->
+<div class="wp-block-columns bottom-grid container"><!-- wp:column {"className":"recommended-box"} -->
+<div class="wp-block-column recommended-box"><!-- wp:group {"className":"rec-content"} -->
+<div class="wp-block-group rec-content"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Doporučeno pro vašeho mazlíčka</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Najděte perfektní produkty na míru potřebám vašeho mazlíčka.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"btn-orange"} -->
+<div class="wp-block-button btn-orange"><a class="wp-block-button__link wp-element-button" href="/shop/">Začít vybírat</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group -->
+
+<!-- wp:html -->
+<div class="rec-image"><span style="font-size: 5rem;">🐾</span></div>
+<!-- /wp:html --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"className":"latest-blog"} -->
+<div class="wp-block-column latest-blog"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Z našeho blogu</h3>
+<!-- /wp:heading -->
+
+<!-- wp:latest-posts {"postsToShow":2,"displayPostDate":true,"displayFeaturedImage":true,"featuredImageSize":"medium","addLinkToFeaturedImage":true} /--></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->

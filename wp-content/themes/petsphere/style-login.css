@@ -1,0 +1,37 @@
+
+/* --- Login/Register Page Styling --- */
+.petsphere-auth-wrapper {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+.petsphere-register-cta .or-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    color: #888;
+    font-size: 0.9rem;
+}
+
+.petsphere-register-cta .or-text::before,
+.petsphere-register-cta .or-text::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: #eee;
+    margin: 0 15px;
+}
+
+.petsphere-auth-switch .button.ghost {
+    background: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    margin-top: 10px;
+}
+
+.petsphere-auth-switch .button.ghost:hover {
+    background: var(--primary-color);
+    color: #fff;
+}

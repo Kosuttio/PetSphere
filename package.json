@@ -1,0 +1,24 @@
+{
+  "name": "petsphere",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "browser-sync start --proxy 'http://localhost:8000' --files 'wp-content/themes/petsphere/**/*.css, wp-content/themes/petsphere/**/*.php, wp-content/themes/petsphere/**/*.js, wp-content/themes/petsphere/images/**/*' --host 192.168.0.249 --port 3000 --no-open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kosuttio/PetSphere.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kosuttio/PetSphere/issues"
+  },
+  "homepage": "https://github.com/Kosuttio/PetSphere#readme",
+  "devDependencies": {
+    "browser-sync": "^3.0.4"
+  }
+}

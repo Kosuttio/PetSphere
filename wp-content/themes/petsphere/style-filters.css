@@ -1,0 +1,130 @@
+
+/* --- Reset List Styles --- */
+.widget_layered_nav ul,
+.widget_status ul,
+.widget_rating_filter ul {
+    padding: 0 !important;
+    margin: 0 !important;
+    list-style: none !important;
+}
+
+/* --- Counts Styling --- */
+/* Removed redundant block as it is now handled above */
+
+/* Ensure list items are flex to align count */
+.widget_layered_nav ul li,
+.widget_status ul li,
+.widget_rating_filter ul li {
+    display: flex !important;
+    align-items: center;
+    justify-content: flex-start; /* Align everything to start */
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+/* Push count to the right */
+.widget_layered_nav .count,
+.widget_status .count,
+.widget_rating_filter .count {
+    display: inline-block !important;
+    margin-left: auto; /* This pushes the count to the far right */
+    font-size: 0.9rem;
+    color: #777;
+    font-weight: normal;
+}
+
+/* --- Move Filter Button to Bottom --- */
+/* We will use JS to move the button, but let's style the placeholder or the moved button */
+.petsphere-global-filter-btn {
+    display: block;
+    width: 100%;
+    background-color: #e67e22; /* Orange from screenshot */
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1rem;
+    transition: background 0.2s;
+}
+
+.petsphere-global-filter-btn:hover {
+    background-color: #d35400;
+}
+
+/* Hide original button in price filter if we move it or replace it */
+.widget_price_filter .price_slider_amount .button {
+    display: none !important;
+}
+
+/* --- Mobile Filter Styles --- */
+.petsphere-mobile-filter-trigger {
+    display: none; /* Hidden on desktop */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9990;
+    background-color: var(--primary-color, #1a5d48);
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 24px;
+    font-weight: 700;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.petsphere-mobile-filter-close {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    /* Hide sidebar by default on mobile */
+    .shop-sidebar {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        z-index: 10000;
+        padding: 60px 20px 20px 20px; /* Top padding for close button */
+        overflow-y: auto;
+        box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    }
+
+    .shop-sidebar.active {
+        display: flex; /* Use flex because we set flex-direction: column earlier */
+    }
+
+    /* Show Trigger */
+    .petsphere-mobile-filter-trigger {
+        display: block;
+    }
+
+    /* Close Button */
+    .petsphere-mobile-filter-close {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        background: transparent;
+        border: none;
+        font-size: 2rem;
+        line-height: 1;
+        cursor: pointer;
+        color: #333;
+    }
+    
+    /* Adjust layout inside sidebar for mobile */
+    .shop-sidebar .widget {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

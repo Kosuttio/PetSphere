@@ -1,0 +1,5 @@
+2025-12-06T23:01:35+00:00 ERROR Error running debug tool regenerate_product_attributes_lookup_table: Invalid nonce CONTEXT: {"tool":"regenerate_product_attributes_lookup_table","callback":{},"error":{}}
+2025-12-06T23:07:52+00:00 ERROR Error running debug tool regenerate_product_attributes_lookup_table: Invalid nonce CONTEXT: {"tool":"regenerate_product_attributes_lookup_table","callback":{},"error":{}}
+2025-12-06T23:11:32+00:00 ERROR Error running debug tool regenerate_product_attributes_lookup_table: Invalid nonce CONTEXT: {"tool":"regenerate_product_attributes_lookup_table","callback":{},"error":{}}
+2025-12-06T23:16:32+00:00 ERROR Error running debug tool regenerate_product_attributes_lookup_table: Invalid nonce CONTEXT: {"tool":"regenerate_product_attributes_lookup_table","callback":{},"error":{}}
+2025-12-06T23:21:43+00:00 ERROR Error running debug tool regenerate_product_attributes_lookup_table: Invalid nonce CONTEXT: {"tool":"regenerate_product_attributes_lookup_table","callback":{},"error":{}}

@@ -64,6 +64,10 @@ define( 'DB_CHARSET', getenv_docker('WORDPRESS_DB_CHARSET', 'utf8mb4') );
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', getenv_docker('WORDPRESS_DB_COLLATE', '') );
 
+/** Site URL and Home URL from Docker environment */
+define( 'WP_HOME', getenv_docker('WP_HOME', 'http://localhost:8000') );
+define( 'WP_SITEURL', getenv_docker('WP_SITEURL', 'http://localhost:8000') );
+
 /**#@+
  * Authentication unique keys and salts.
  *
